@@ -1,0 +1,134 @@
+*{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12%;
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    gap:16px;
+}
+.sec-1{
+    padding: 100px 12%;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    gap: 5%;
+
+}
+.con-1{
+    flex: 1;
+    text-align: left;
+}
+.con-1 h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.con-1 p{
+    padding: 15px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-style: none;
+}
+.img-sec-1{
+    flex: 1;
+}
+.sec-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    background-color: #f9faf8;
+    padding: 12px 12%;
+}
+.sec-2 h2{
+    padding: 5%;
+}
+.sec-2 p{
+    padding: 5%;
+    font-weight: 100;
+    font-size: 18px;
+}
+.sec-2-random{
+    gap: 15px;
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: row;
+}
+.con-2 img{
+    width: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: #3882f6 solid 3px;
+}
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 12% 12%;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.sec-3 h3{
+    font-size: 24px;
+    padding-top: 5%;
+    text-align: right;
+}
+.sec-4{
+    display: flex;
+    justify-content: center;
+}
+.con-4{
+    display: flex;
+}
+.con-4{
+    margin: 2%;
+    background-color: #3882f6;
+    padding: 3%;
+    border-radius: 15px;
+    color: white;
+}
+.con-4 button{
+    margin: 0 15px;
+    border-style: solid;
+    border-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 3%;
+}
